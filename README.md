@@ -36,12 +36,12 @@ Services in the Compose File
 * **Debezium UI**: A user interface for managing and monitoring Debezium connectors.
 * **Postgres**: An open-source relational database.
 
-  Commands
-  ---
-  **Run Docker Compose**: `docker-compose up -d` <br>
-  **Verify the Services**: `docker-compose ps` <br>
-  **Accessing the Services**: <br>
-    * Kafka Control Center is accessible at `http://localhost:9021`. <br>
-    * Debezium UI is accessible at `http://localhost:8080`. <br>
-    * Postgres is accessible on the default port `5432`. <br> 
-**Shutting Down**: `docker-compose down` <br>
+Commands
+---
+**Run Docker Compose**: `docker-compose up -d` <br>
+**Verify the Services**: `docker-compose ps` <br>
+**Accessing the Services**: <br>
+  * Kafka Control Center is accessible at `http://localhost:9021`. <br>
+  * Debezium UI is accessible at `http://localhost:8080`. <br>
+  * Postgres is accessible on the default port `5432`. <br> 
+**Shutting Down**: `docker-compose down`
